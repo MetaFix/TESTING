@@ -1,6 +1,7 @@
+from django_heroku import settings
 import os
 from pathlib import Path
-import django_heroku
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -94,4 +95,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-django_heroku.settings(locals())
+settings(locals())
