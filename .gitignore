@@ -1,0 +1,7 @@
+venv/
+static/
+!ecommerce_shop/static/
+__pycache__/
+db.sqlite3
+.idea
+media/
