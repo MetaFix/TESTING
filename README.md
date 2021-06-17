@@ -6,7 +6,7 @@ pip install -r requirements.tx
 ```
 
 ## Init project
-To initialize project
+Для инициализации проекта
 ```
 python manage.py migrate
 python manage.py createsuperuser
