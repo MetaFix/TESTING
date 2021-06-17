@@ -5,9 +5,14 @@
 {% block content %}
     <div class="container">
         <div class="row col s12">
-            <h1>Заявка успешено отправлена</h1>
-            <p>С вами свяжется наш меннеджер в ближайшее время</p>
-            <p><a href="{% url 'catalog' %}">Вернуться на главную</a></p>
+
+<h1></h1>
+            <h1>Заявка успешено отправлена     <a class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a></h1>
+
+
+            <p><a href="{% url 'catalog' %}" class="link-secondary" >Вернуться на главную</a></p>
+
+
         </div>
     </div>
 {% endblock %}

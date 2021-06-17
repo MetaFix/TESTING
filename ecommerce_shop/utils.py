@@ -1,2 +1,2 @@
 class PaginationMixin:
-    paginate_by = 10
+    paginate_by = 3
